@@ -209,7 +209,7 @@ namespace Testing_Movement
             int formWidth = this.Width;
             int screenHeight = Screen.PrimaryScreen.Bounds.Size.Height;
             int formHeight = this.Height;
-            this.Location = new Point(screenWidth - formWidth + 10, screenHeight - formHeight + 15);
+            this.Location = new Point(screenWidth - formWidth + 10, screenHeight - formHeight);
             this.TransparencyKey = Color.White;
             this.FormBorderStyle = FormBorderStyle.None;
 
